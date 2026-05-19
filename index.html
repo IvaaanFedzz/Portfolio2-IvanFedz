@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iván Fernández — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="#top">Iván<span>.</span></a>
+
+      <ul class="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+
+      <a class="btn-small" href="#contacto">Hablemos</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow"><span class="dot"></span> Portfolio personal</div>
+          <h1>Webs sencillas, limpias y con cabeza.</h1>
+          <p>
+            Soy Iván Fernández, estudiante de informática con interés en desarrollo web,
+            ciberseguridad y laboratorios prácticos. Me gusta crear cosas que funcionen bien,
+            se vean serias y no estén llenas de humo.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn-ghost" href="https://github.com/ivaaanfedzz" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+
+        <aside class="profile-card" aria-label="Resumen rápido">
+          <div class="profile-card-inner">
+            <div class="terminal-top"><i></i><i></i><i></i></div>
+            <div class="terminal-line">usuario: <strong>ivan</strong></div>
+            <div class="terminal-line">zona: <strong>Valladolid / España</strong></div>
+            <div class="terminal-line">enfoque: <strong>web + seguridad</strong></div>
+            <div class="terminal-line">estado: <strong>aprendiendo y creando</strong></div>
+            <div class="terminal-line">extra: <strong>SMR · labs · CTFs</strong></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="sobre-mi">
+      <div class="container">
+        <div class="section-title">
+          <span>01</span>
+          <h2>Sobre mí</h2>
+        </div>
+
+        <div class="about-box">
+          <div class="text-card">
+            <p>
+              Estoy formándome en informática y redes. Me interesa especialmente la parte de
+              <strong>seguridad web</strong>, entender cómo se rompen las cosas y después aprender a protegerlas.
+            </p>
+            <p>
+              También hago pequeñas webs y pruebas propias para practicar HTML, CSS, JavaScript,
+              GitHub y herramientas básicas de análisis. No vendo humo: voy mejorando proyecto a proyecto.
+            </p>
+            <p>
+              Este portfolio está pensado para enseñar lo justo: quién soy, qué sé tocar y cómo contactar conmigo.
+            </p>
+          </div>
+
+          <div class="skills-card">
+            <h3>Herramientas y temas que voy tocando</h3>
+            <div class="skill-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>GitHub</span>
+              <span>Linux</span>
+              <span>Kali</span>
+              <span>Nmap</span>
+              <span>Burp Suite</span>
+              <span>OWASP</span>
+              <span>Redes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <div class="container">
+        <div class="section-title">
+          <span>02</span>
+          <h2>Proyectos</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project">
+            <div>
+              <small>web / portfolio</small>
+              <h3>Portfolio personal</h3>
+              <p>Una web simple para presentarme, enseñar proyectos y tener una presencia más profesional online.</p>
+            </div>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>Responsive</span>
+            </div>
+          </article>
+
+          <article class="project">
+            <div>
+              <small>seguridad / práctica</small>
+              <h3>Writeups de CTF</h3>
+              <p>Apuntes de máquinas y retos que voy resolviendo, explicando los pasos sin copiar comandos a lo loco.</p>
+            </div>
+            <div class="project-tags">
+              <span>Linux</span><span>Nmap</span><span>Burp</span>
+            </div>
+          </article>
+
+          <article class="project">
+            <div>
+              <small>scripts / automatización</small>
+              <h3>Recon básico</h3>
+              <p>Scripts pequeños para practicar reconocimiento, ordenar resultados y ahorrar tiempo en laboratorios.</p>
+            </div>
+            <div class="project-tags">
+              <span>Bash</span><span>Python</span><span>Labs</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="container">
+        <div class="section-title">
+          <span>03</span>
+          <h2>Contacto</h2>
+        </div>
+
+        <div class="contact-wrap">
+          <div class="contact-card">
+            <h3>¿Quieres hablar?</h3>
+            <p>
+              Puedes escribirme para una web sencilla, una colaboración, dudas de informática
+              o cualquier proyecto relacionado con desarrollo y ciberseguridad.
+            </p>
+
+            <div class="contact-links">
+              <a href="mailto:ivanferma@icloud.com">ivanferma@icloud.com</a>
+              <a href="https://wa.me/34620681763" target="_blank" rel="noopener">WhatsApp</a>
+              <a href="https://github.com/ivaaanfedzz" target="_blank" rel="noopener">github.com/ivaaanfedzz</a>
+            </div>
+          </div>
+
+          <form id="contactForm">
+            <label for="name">Nombre</label>
+            <input id="name" type="text" placeholder="Tu nombre" required />
+
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="tu@email.com" required />
+
+            <label for="message">Mensaje</label>
+            <textarea id="message" placeholder="Cuéntame qué necesitas" required></textarea>
+
+            <button type="submit">Preparar mensaje</button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>© <span id="year"></span> Iván Fernández</span>
+      <span>Hecho a mano, sin complicarlo demasiado.</span>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const year = document.getElementById('year');
+    const form = document.getElementById('contactForm');
+    const formNote = document.getElementById('formNote');
+
+    year.textContent = new Date().getFullYear();
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('open');
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.remove('open'));
+    });
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const subject = encodeURIComponent('Contacto desde portfolio');
+      const body = encodeURIComponent(`Nombre: ${name}\nEmail: ${email}\n\nMensaje:\n${message}`);
+
+      formNote.textContent = 'Abriendo tu cliente de correo...';
+      window.location.href = `mailto:ivanferma@icloud.com?subject=${subject}&body=${body}`;
+    });
+  </script>
+</body>
+</html>
